@@ -136,3 +136,30 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    /* uno debajo del otro */
+    align-items: center;
+    gap: 50px; 
+    /* Separar entre ellos */
+    padding: 50px;
+}
+
+iframe, video {
+    max-width: 90%;
+}
+
+.video-container {
+    padding: 1px;
+    gap: 5px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    min-height: 200px;
+}

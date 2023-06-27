@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h1>Bienvenidos a mi primer 
-            Website</h1>
+        <header>
         <div class="container-nav">
             <nav class="navbar" role="navigation">
                 <a href="#" class="brand">Mi pagina web</a>
@@ -19,11 +18,12 @@
             </nav>
             <button class="button-menu-toggle">Menu</button>
         </div>    
-        <button onclick="showAlert()">Haz click en mi</button>
+        </header>
+        <main>
         <div class="container">
-            <div class="row">
-                <div class="column>">
-                    <div class="box">
+            <h1>Bienvenidos a mi primer 
+                Website</h1>
+                    <section>
                         <h2>Presentacion</h2>
                          <p>Soy Axel, y esta es mi
                         primera pagina 
@@ -31,23 +31,26 @@
                         </p>
                          <p>Estoy aprendiendo 
                         desarrallo para crear sitios
-                        web
-                        </p>
+                        web</p>
                         <p>Me gusta mucho el como va esto!</p>
-                    </div>
-                </div>
-                     <div class="column">
-                        <div class="box2">
+                    </section>
+                     <section>
                              <h2>Lo que se viene...</h2>
                              <p>A lo largo de este curso, estare aprendiendo HTML, CSS y ya
                             </p>
                             <p>Si, asi esta yendo mi cuadro</p>
                             <p>Si, asi esta yendo mi cuadro</p>
-                            
-                        </div>
-                </div>
-            </div>
+                        </section>
         </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bcVjxchxvRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <video width="560" height="315" src="nombre.mp4" controls></video>
+                    </div>
+            </main>
+        <footer>
+            <p>Informacion sobre el desarrollador o compania</p>
+            <button onclick="showAlert()">Haz click en mi</button>
+        </footer>
     <script src="script.js"></script>
     </body>
 </html>
